@@ -6,6 +6,8 @@ In this study, a novel machine learning algorithm for multiclass classification 
 
 Elen, A., & Avuçlu, E. (2021). Standardized Variable Distances: A distance-based machine learning method. Applied Soft Computing, 98(2021): 106855. doi: https://doi.org/10.1016/j.asoc.2020.106855
 
+https://www.researchgate.net/publication/344947495_Standardized_Variable_Distances_A_distance-based_machine_learning_method
+
 **How to use:**
 
 ```matlab
