@@ -46,7 +46,7 @@ function result = funcTest(features, labels, classCount, distMetric, MeanVectors
     svd = absZscores .* distances;
     
     % Gets the number of samples in the test set.
-    sampleCount = length(features);
+    sampleCount = size(features, 1);
 
     % Preallocates the per class misclassification counts array.
     misclassification = zeros(1, classCount);
