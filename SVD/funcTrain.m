@@ -54,7 +54,7 @@ function result = funcTrain(features, labels, classCount, distMetric)
     svd = absZscores .* distances;
     
     % Gets the number of samples in the train set.
-    sampleCount = length(features);
+    sampleCount = size(features, 1);
 
     % Preallocates the per class misclassification counts array.
     misclassification = zeros(1, classCount);
