@@ -38,7 +38,7 @@ function result = funcGetAbsZscores(features, classCount, MeanVectors, StdVector
     for j = 1 : sampleCount,
         for i = 1 : classCount,
             result(j, i) = sum(abs(features(j, :) - MeanVectors(i, :)) ...
-                ./ StdVectors(i, :));
+                ./ (StdVectors(i, :) + eps));
         end
     end
 end
