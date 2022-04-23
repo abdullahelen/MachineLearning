@@ -15,4 +15,9 @@ Elen, A., & Avuçlu, E. (2021). Standardized Variable Distances: A distance-base
 _____________________________________________________
 
 
-## [2. The next MLA will be located here..](https://github.com/abdullahelen/MachineLearning/tree/main/?)
+## [2. Adaptive Gaussian Kernel (AGK)](https://github.com/abdullahelen/MachineLearning/tree/main/AGK)
+In this study, an adaptive kernel is proposed based on the Gaussian function, which is used in Support Vector Machine (SVM). While the sigma parameter is determined as an arbitrary value in the traditional Gaussian kernel, the proposed method calculates an adaptive value depending on the input vectors.
+
+**Main paper:**
+
+Elen, A., Baş, S. & Közkurt, C. (2022). An Adaptive Gaussian Kernel for Support Vector Machine. Arabian Journal for Science and Engineering, (2022): 106855. doi: https://doi.org/10.1007/s13369-022-06654-3
